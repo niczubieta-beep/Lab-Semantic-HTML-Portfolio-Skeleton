@@ -1,0 +1,131 @@
+:root {
+    --msu-gown-green: #348E6D;
+    --beige: #FFFFE8;
+    --gunmetal: #343E3D;
+    --dusty-mauve: #93748A;
+    --baby-blue-ice: #A3BCF9;
+}
+
+@font-face {
+    font-family: "GuberaMonoDemoRegular";
+    src: url("fonts/GuberaMonoDemoRegular-MA6Vv.ttf");
+}
+
+@font-face{
+    font-family: martin-gaming;
+    src: url("fonts/MartinGaming-yYlo2.ttf");
+}
+
+html {
+    background-color: var(--beige);
+}
+
+#picture_of_nic {
+  display:block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  border-radius: 30px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+nav {
+    margin: auto;
+    background-color: var(--msu-gown-green);
+    width: 55%;
+    border-radius: 30px;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 45px;
+    font-size: 45px;
+    width: 10vw;
+} 
+
+nav a {
+    font-family: "GuberaMonoDemoRegular";
+    color: black;
+}
+
+h1 {
+    font-family: "BPMono", monospace;
+    text-align: center; 
+}
+
+#projects h2, #hobbies h2 {
+    background-color: var(--baby-blue-ice);
+    display: inline-block;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 35px;
+}
+
+#about p{
+    text-indent: 40px;
+    font-family: "BPMono", monospace;
+    font-size: 20px;
+
+}
+
+#projects p, #hobbies p{
+    text-indent: 40px;
+    font-size: 20px;
+    font-family: "BPMono", monospace;
+}
+
+.project-image {
+    display: block;
+    margin-top: 0;
+    scale: 0.8;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+h3 {
+    background-color: var(--dusty-mauve);
+    display: inline-block;
+    font-size: 25px;
+}
+
+
+#hobbies a {
+    color: black;
+    font-family: "martin-gaming";
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border: 0px;
+    display: block;
+    text-align: center;
+}
+
+#hobbies a:hover {
+    font-size: 45px;
+}
+
+#contact {
+    text-align: center;
+    margin: 0px;
+}
+
+#contact h2{
+    background-color: var(--msu-gown-green);
+    display: inline-block;
+    margin: 0px;
+    width: 200px;
+}
