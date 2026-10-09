@@ -6,12 +6,16 @@
 	<meta name= 'author' content="Nicolas Zubieta">
 	<meta name='description' content="Portfolio of Nicolas Zubieta, a computer science senior at Michigan State University.">
 	<title>Nicolas Zubieta - Portfolio</title>
+
+	<link rel="icon" href="images/nz_Logo.png" type="image/png">
+
+	<link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
 	<header>
-		<a href = "#nz_logo"><img src="images/nz_Logo.png" alt = "Nic's Logo">  </a>
-		<a href = "#picture_of_nic"><img src="images/picture_of_nic.JPG" alt = "Nic's Logo"></a>
+		<a href = "#picture_of_nic"><img src="images/picture_of_nic.JPG" alt = "Nic's Logo" id = "picture_of_nic"></a>
 		<nav>
 			<ul>
 				<li><a href="#projects">Projects</a></li>
@@ -37,7 +41,7 @@
 			<h2>Projects</h2>
 			<article>
 				<h3>Spartan Touchdown</h3>
-				<a href = "#spartan_touchdown"><img src="images/spartan_touchdown.png" alt = "Spartan Touchdown"></a>
+				<a href = "#spartan_touchdown"><img src="images/spartan_touchdown.png" alt = "Spartan Touchdown" class = "project-image"></a>
 				<p>
 					A 2D platformer game where you play as a football and have to make it to the goalpost at the end of the level. In-between the start and the goalpost you will encounter enemies (other unviersity mascots) and must grab power ups to make it past them. This was developed with a team of five members including myself over the span of about two months. This project was one of the best programming experiences I've had with a team, and it made me appreciate collaboration in software development much more than I did before.
 				</p>
@@ -45,7 +49,7 @@
 			
 			<article>
 				<h3>JBBNS Image Share</h3>
-				<a href = "#jbbns_logo"><img src="images/jbbns_logo.png" alt = "JBBNS Logo"></a>
+				<a href = "#jbbns_logo"><img src="images/jbbns_logo.png" alt = "JBBNS Logo" class = "project-image"></a>
 				<p>
 					An image storage website with Google OAuth integration. All backend was done using python and was hosted using Microsoft Azure. The website had a SQLite database that was used to associate images with user accounts. This project was completed with a team of two other people and took roughly a month. I was still getting my feet wet when I was developing this website, and one of my classes had taught me how to handle endpoints in python with python's integration of SQLite, so those were the tools I used.
 				</p>
@@ -53,7 +57,7 @@
 
 		</section>
 
-		<section id="Hobbies/Interests">
+		<section id="hobbies">
 			<h2>Hobbies/Interests</h2>
 			<p>
 				I play guitar and drums when I'm not working/at school. I am an Eboard member of the Michigan State University Jam Club, where we host weekly sessions where students can play songs together, jam on the spot, host open mics, etc. I'm also interested in computer hardware. This past summer I built an extremely powerful PC by myself. I also have my own network stack with a managed switch and router that my PC and a small server are connected to. I use the stack to connect to my computer remotely, and also to host servers for various video games for my friends and I. Below are the specs of my current PC:
