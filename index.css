@@ -16,6 +16,11 @@
     src: url("fonts/MartinGaming-yYlo2.ttf");
 }
 
+@font-face {
+    font-family: "kinesthetia";
+    src: url("fonts/KinesthesiaSemibold-pgX11.otf");
+}
+
 html {
     background-color: var(--beige);
 }
@@ -51,7 +56,7 @@ nav ul li{
     display: inline-block;
     margin: 0 45px;
     font-size: 45px;
-    width: 10vw;
+    width: 150px;
 } 
 
 nav a {
@@ -59,12 +64,28 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    color: white;
+}
+
 h1 {
-    font-family: "BPMono", monospace;
+    font-family: "kinesthetia", monospace;
     text-align: center; 
 }
 
-#projects h2, #hobbies h2 {
+main {
+  border-radius: 30px;
+  border-color: var(--gunmetal);
+  border-width: 10px;
+  border-style: solid;
+
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+    
+}
+
+#projects h2, #hobbies h2, #about h2 {
     background-color: var(--baby-blue-ice);
     display: inline-block;
     margin: 0px;
@@ -74,26 +95,11 @@ h1 {
     font-size: 35px;
 }
 
-#about p{
-    text-indent: 40px;
-    font-family: "BPMono", monospace;
-    font-size: 20px;
-
-}
-
-#projects p, #hobbies p{
+#projects p, #hobbies p, #about p {
     text-indent: 40px;
     font-size: 20px;
-    font-family: "BPMono", monospace;
-}
+    font-family: "kinesthetia", monospace;
 
-.project-image {
-    display: block;
-    margin-top: 0;
-    scale: 0.8;
-    border-color: black;
-    border-width: 10px;
-    border-style: solid;
 }
 
 h3 {
@@ -118,14 +124,44 @@ h3 {
     font-size: 45px;
 }
 
+#projects article {
+    text-align: left;
+}
+
+#projects p {
+    text-align: left;
+}
+
+.project-image {
+    display: block;
+    margin-top: 0;
+    width: 13%;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.project-image:hover {
+    width: 15%;
+}
+
+
 #contact {
     text-align: center;
     margin: 0px;
 }
 
 #contact h2{
-    background-color: var(--msu-gown-green);
-    display: inline-block;
-    margin: 0px;
-    width: 200px;
+  border-radius: 30px;
+  border-color: var(--gunmetal);
+  border-width: 5px;
+  border-style: solid;
+  display: inline-block;
+  width: 220px;
+}
+
+address {
+    font-family: "kinesthetia", monospace;
+    font-size: 20px;
+    font-style: italic;
 }
