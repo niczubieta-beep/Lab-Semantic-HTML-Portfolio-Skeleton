@@ -12,7 +12,7 @@
 }
 
 @font-face{
-    font-family: martin-gaming;
+    font-family: "martin-gaming";
     src: url("fonts/MartinGaming-yYlo2.ttf");
 }
 
@@ -41,7 +41,7 @@ html {
 nav {
     margin: auto;
     background-color: var(--msu-gown-green);
-    width: 55%;
+    width: 800px;
     border-radius: 30px;
 }
 
